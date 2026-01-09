@@ -1,6 +1,8 @@
 package org.lessons.java.animals;
 
-public class Delfino extends AbstractAnimals{
+import org.lessons.java.interfaces.INuotante;
+
+public class Delfino extends AbstractAnimals implements INuotante{
 
     // utilizzo metodo astratto verso tramite override
     @Override
@@ -12,6 +14,12 @@ public class Delfino extends AbstractAnimals{
     @Override
     public void mangia() {
         System.out.println("Pesce");
+    }
+
+    //utilizzo metodo nuota di un interfaccia
+    @Override
+    public void nuota(){
+        System.out.println("Sto nuotando");
     }
 
 }

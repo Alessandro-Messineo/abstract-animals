@@ -1,4 +1,8 @@
-package org.lessons.java.animals;
+package org.lessons.java;
+
+import org.lessons.java.animals.AbstractAnimals;
+import org.lessons.java.animals.Cane;
+import org.lessons.java.animals.Delfino;
 
 public class Main {
     public static void main(String[] args) {

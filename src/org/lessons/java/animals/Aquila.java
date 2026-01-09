@@ -1,6 +1,8 @@
 package org.lessons.java.animals;
 
-public class Aquila extends AbstractAnimals{
+import org.lessons.java.interfaces.IVolante;
+
+public class Aquila extends AbstractAnimals implements IVolante{
 
     // utilizzo metodo astratto verso tramite override
     @Override
@@ -13,5 +15,12 @@ public class Aquila extends AbstractAnimals{
     public void mangia() {
         System.out.println("Carne");
     }
+
+    //utilizzo metodo nuota di un interfaccia
+    @Override
+    public void vola(){
+        System.out.println("Sto volando");
+    }
+
 
 }

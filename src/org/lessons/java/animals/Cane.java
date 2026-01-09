@@ -1,6 +1,8 @@
 package org.lessons.java.animals;
 
-public class Cane extends AbstractAnimals {
+import org.lessons.java.interfaces.INuotante;
+
+public class Cane extends AbstractAnimals implements INuotante{
 
     // utilizzo metodo astratto verso tramite override
     @Override
@@ -14,4 +16,9 @@ public class Cane extends AbstractAnimals {
         System.out.println("Crocchette");
     }
 
+    //utilizzo metodo nuota di un interfaccia
+    @Override
+    public void nuota(){
+        System.out.println("Sto nuotando");
+    }
 }
