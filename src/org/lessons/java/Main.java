@@ -1,6 +1,5 @@
 package org.lessons.java;
 
-import org.lessons.java.animals.AbstractAnimals;
 import org.lessons.java.animals.Aquila;
 import org.lessons.java.animals.Cane;
 import org.lessons.java.animals.Delfino;
